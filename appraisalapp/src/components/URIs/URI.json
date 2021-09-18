@@ -1,0 +1,8 @@
+{
+    "get_Staff" : "/api/getstaff/",
+    "add_Teacher" : "/api/newstaff",
+    "del_teacher" : "/api/delete/",
+    "update_Teacher" : "/api/edit/",
+    "update_History": "/api/history/"
+
+}

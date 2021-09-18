@@ -1,0 +1,32 @@
+
+const data = [
+{school:"CS3", name: "Ryan"},
+{school:"CS6", name: "dave"},
+{school:"CS2", name: "jon"},
+{school:"CS3", name: "jon"},
+{school:"CS6", name: "jon"},
+{school:"CS4", name: "jon"},
+]
+
+let arr = []
+ const schools = data.map((e)=>{
+return e.school
+})
+
+
+
+const newsschools = schools.filter((item, index) => schools.indexOf(item) === index).sort()
+
+
+for(let i=0; i<newsschools.length; i++){
+let num = 0
+data.map((e)=>{
+if(e.school === newsschools[i]){
+num++
+}
+
+})
+arr.push(num)
+}
+console.log(newsschools)
+console.log(arr)

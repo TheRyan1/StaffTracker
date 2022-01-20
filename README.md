@@ -6,12 +6,12 @@ Each employee has details as to which dates the aprraisals should take place bas
 There's an added view where the city manager is able to see which schools have the most or least experience staff to help with moving employees around the city to different schools to support less experienced teachers. 
 ## Technologies used
 
--Auth0
--ReactJS
--NodeJS
--ExpressJS
--ChartJS
--DayJS
--MongoDB
+- Auth0
+- ReactJS
+- NodeJS
+- ExpressJS
+- ChartJS
+- DayJS
+- MongoDB
 
 ## Featured Code
